@@ -53,8 +53,8 @@
 const produtos = [
   {
     id: 1,
-    produto: "Vestido Longo",
-    especificacao: "Vestido floral longo com alças finas",
+    produto: "Conjunto",
+    especificacao: "Conjunto de Top Rosa, Short Jeans Preto e Cinto Preto",
     descricao: "Confortável e elegante, ideal para o dia a dia ou eventos casuais.",
     categoria: "Feminino",
     preco: 146.64,
@@ -62,8 +62,8 @@ const produtos = [
   },
   {
     id: 2,
-    produto: "Blusa de Manga Larga",
-    especificacao: "Blusa leve de manga comprida",
+    produto: "Conjunto",
+    especificacao: "Conjunto de Regata Branca e Short Jeans Preto",
     descricao: "Feita em tecido macio, combina com qualquer look casual.",
     categoria: "Feminino",
     preco: 132.99,
@@ -71,37 +71,37 @@ const produtos = [
   },
   {
     id: 3,
-    produto: "Conjunto Esportivo",
-    especificacao: "Conjunto de calça e blusa",
-    descricao: "Ideal para atividades físicas ou momentos de lazer.",
-    categoria: "Unissex",
+    produto: "Conjunto",
+    especificacao: "Conjunto de Top Branco e Short Jeans",
+    descricao: "Ideal para momentos de lazer.",
+    categoria: "Feminino",
     preco: 176.75,
     imagem: "img/roupa3.jpg"
   },
   {
     id: 4,
-    produto: "Bermuda Jeans",
-    especificacao: "Bermuda jeans com bolsos laterais",
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Rosa",
     descricao: "Perfeita para o verão, combina conforto e estilo.",
-    categoria: "Masculino",
+    categoria: "Feminino",
     preco: 153.23,
     imagem: "img/roupa4.jpg"
   },
   {
     id: 5,
-    produto: "Blusa Cropped",
-    especificacao: "Blusa curta com tecido leve",
-    descricao: "Tendência do momento, ideal para dias quentes.",
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Azul",
+    descricao: "Tendência do momento, ideal para dias quentes e frios.",
     categoria: "Feminino",
     preco: 182.39,
     imagem: "img/roupa5.jpg"
   },
   {
     id: 6,
-    produto: "Blusa Básica",
-    especificacao: "Blusa simples de algodão",
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Branco",
     descricao: "Peça coringa que combina com qualquer estilo.",
-    categoria: "Unissex",
+    categoria: "Feminino",
     preco: 167.49,
     imagem: "img/roupa6.jpeg"
   }
