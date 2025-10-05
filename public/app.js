@@ -30,7 +30,7 @@ const detalhes = [
         "conteudo": "Vestido florido na cor Rosa",
         "categoria": "Vestido",
         "imagem": "img/roupa4.jpg"
-    }
+    },
   {
         "id": 5,
         "titulo": "Vestido Feminino",
@@ -38,7 +38,7 @@ const detalhes = [
         "conteudo": "Vestido florido na cor Azul",
         "categoria": "Vestido",
         "imagem": "img/roupa5.jpg"
-    }
+    },
   {
         "id": 6,
         "titulo": "Vestido Feminino",
