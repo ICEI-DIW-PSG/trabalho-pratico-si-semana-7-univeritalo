@@ -11,7 +11,7 @@ main {
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ff85c484 !important;
+  background-color: #ffbfe0af !important;
   color: #333;
 }
 
@@ -78,8 +78,9 @@ nav a {
 }
 
 .item img {
-  width: 100%;
+  width: 180px;
   border-radius: 20px;
+  height: 250px;
 }
 
 .preco {
@@ -143,8 +144,8 @@ button:hover {
 }
 
   nav a:hover{
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer !important;
 }
 
 .mensagem{
