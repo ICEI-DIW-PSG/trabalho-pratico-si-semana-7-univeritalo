@@ -13,32 +13,77 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ítalo Gabriel Justino Caldeira
+- Matricula: 902423
+- Proposta de projeto escolhida: Loja de Roupa
+- Breve descrição sobre seu projeto: Loja de roupas femininas com um catálogo extenso de roupas de todos os tipos
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img src="home page.png" alt="print da home page">
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img src="pagina detalhes.png" alt="print da página de detalhes">
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+const produtos = [
   {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    id: 1,
+    produto: "Conjunto",
+    especificacao: "Conjunto de Top Rosa, Short Jeans Preto e Cinto Preto",
+    descricao: "Confortável e elegante, ideal para o dia a dia ou eventos casuais.",
+    categoria: "Feminino",
+    preco: 146.64,
+    imagem: "img/roupa1.jpg"
+  },
+  {
+    id: 2,
+    produto: "Conjunto",
+    especificacao: "Conjunto de Regata Branca e Short Jeans Preto",
+    descricao: "Feita em tecido macio, combina com qualquer look casual.",
+    categoria: "Feminino",
+    preco: 132.99,
+    imagem: "img/roupa2.jpg"
+  },
+  {
+    id: 3,
+    produto: "Conjunto",
+    especificacao: "Conjunto de Top Branco e Short Jeans",
+    descricao: "Ideal para momentos de lazer.",
+    categoria: "Feminino",
+    preco: 176.75,
+    imagem: "img/roupa3.jpg"
+  },
+  {
+    id: 4,
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Rosa",
+    descricao: "Perfeita para o verão, combina conforto e estilo.",
+    categoria: "Feminino",
+    preco: 153.23,
+    imagem: "img/roupa4.jpg"
+  },
+  {
+    id: 5,
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Azul",
+    descricao: "Tendência do momento, ideal para dias quentes e frios.",
+    categoria: "Feminino",
+    preco: 182.39,
+    imagem: "img/roupa5.jpg"
+  },
+  {
+    id: 6,
+    produto: "Vestido",
+    especificacao: "Vestido florido na cor Branco",
+    descricao: "Peça coringa que combina com qualquer estilo.",
+    categoria: "Feminino",
+    preco: 167.49,
+    imagem: "img/roupa6.jpeg"
   }
-]
+];
+
 ```
